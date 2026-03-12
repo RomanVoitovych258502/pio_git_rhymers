@@ -23,7 +23,7 @@ public class IntLinkedList {
         return false;
     }
 
-    public int top() {
+    public int getTop() {
         if (isEmpty())
             return -1;
         return last.value;
